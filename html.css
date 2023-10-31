@@ -1,0 +1,7 @@
+b{color:red;border:3px dashed;background-color:green}
+#b2{font-size:25}
+p{border:4px solid;color:green;font-size:34;background-color:purple}
+#p2{color:black;border:4px;border-style: dotted}
+input{background-color:silver}
+input[type="text"]{background-color:brown;width:150;height:75;font-size=45}
+

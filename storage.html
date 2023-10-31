@@ -1,0 +1,40 @@
+<html>
+<body>
+<script>
+function saveData()
+{
+   var i=document.forms[0].isbn.value;
+   var t=document.forms[0].title.value;
+   console.log(i);
+   console.log(t);
+   localStorage.isbn=i;
+   localStorage.title=t;
+ 
+
+}
+function getData(){
+              para=document.getElementsByName("bookdata");
+              para[0].innerHTML=localStorage.isbn;
+              para[1].innerHTML=localStorage.title;
+                 
+             
+            
+
+}
+
+
+</script>
+<center>
+<form>
+Bikename&nbsp;&nbsp;<input type="text"  name ="isbn"/><br>
+year&nbsp;&nbsp;<input type="text"  name="title"/><br><br>
+<input type="button" value="save" onclick="saveData()"/>&nbsp;&nbsp;
+<input type="button" value="get" onclick="getData()"/>&nbsp;&nbsp;
+<br><br><p name="bookdata"></p>
+<br><p name="bookdata"></p>
+</form>
+</center>
+
+</body>
+</html>
+

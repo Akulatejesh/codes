@@ -1,0 +1,150 @@
+<html>
+    <style> 
+        div{
+            width:100px;
+            height:100px;
+            background-color: red;
+            transition:width 5s, height 5s  ;
+            -webkit-transition:width 2s ,height 2s ,-webkit-transform 2s;
+        }
+        div:hover{
+            width :200px;
+            height:300px;
+            
+            transform:rotate(180deg);
+            -ms-transform:rotate(180deg);
+            -webkit-transform: rotate(180deg);
+        } 
+    </style>
+
+    <body><!--
+        <h1>practice for assignment</h1><br>
+        <a href="http://www.google.com">google</a><br>
+        <a href="http://www.iplt20.com">
+            <img src="ipl logo.jpg" width="500" height="600" />
+        </a> 
+        <center>
+            <form>
+                first name<input type="text" placeholder="name  "  required /><br>
+                age:<input type="number" min="4" max=""100/><br>
+               <b>gender</b>:<br>
+                  male<input type="radio" name="gender"/><br>
+                  female<input type="radio" name="gender"/><br>
+                  <b>Hobbies:</b><br>
+                  cricket<input type="checkbox" /><br>
+                  chess<input type="checkbox"/><br>
+                  <br><br>date of entry<input type="date" /><br>
+                  time<input type="time" /><br>
+                  frequency<input type="range" min="10" max="1000" /><br>
+                  <br><br><input type="submit" value="save"/><br>
+                  <br><input type="reset" value="reset" />
+            </form>
+        </center> 
+        <img src="google logo.jpg" width="500" height="500" use map="#planet map">
+        <map id="planet map" name="planet map">
+            <area shape="circle" coords="72,63,35" alt="mercury" href="mercury.html">
+            <area shape="circle" coords="72,145,65" alt="sun" href="sun.html">
+            
+
+        </map>
+        <a href="#bottom">bottom</a><br>
+        <h1 id="top">top</h1><br>
+        <b>teju</b><br>
+        <i>bhargav</i><br>
+        <u>tharun</u><br>
+        <b>teju</b><br>
+        <i>bhargav</i><br>
+        <u>tharun</u><br>
+        <b>teju</b><br>
+        <i>bhargav</i><br>
+        <u>tharun</u><br>
+        <b>teju</b><br>
+        <i>bhargav</i><br>
+        <u>tharun</u><br>
+        <b>teju</b><br>
+        <i>bhargav</i><br>
+        <u>tharun</u><br>
+        <b>teju</b><br>
+        <i>bhargav</i><br>
+        <u>tharun</u><br>
+        <b>teju</b><br>
+        <i>bhargav</i><br>
+        <u>tharun</u><br>
+        <b>teju</b><br>
+        <i>bhargav</i><br>
+        <u>tharun</u><br>
+        <b>teju</b><br>
+        <i>bhargav</i><br>
+        <u>tharun</u><br>
+        <b>teju</b><br>
+        <i>bhargav</i><br>
+        <u>tharun</u><br>
+        <b>teju</b><br>
+        <i>bhargav</i><br>
+        <u>tharun</u><br>
+        <b>teju</b><br>
+        <i>bhargav</i><br>
+        <u>tharun</u><br>
+        <b>teju</b><br>
+        <i>bhargav</i><br>
+        <u>tharun</u><br>
+        <b>teju</b><br>
+        <i>bhargav</i><br>
+        <u>tharun</u><br>
+        <b>teju</b><br>
+        <i>bhargav</i><br>
+        <u>tharun</u><br>
+        <b>teju</b><br>
+        <i>bhargav</i><br>
+        <u>tharun</u><br>
+        <p id="bottom">bottom</p>
+        <a href="#top">top</a>
+        <table border="5px dashed" background="google logo.jpg" width="500" height="1000">
+           <tr><td colspan="4"><center>list of employee</center></td></tr>
+           <tr><td rowspan="4"><font color="blue">teju bhargav</font></td></tr>
+            <tr><td>EMP ID</td><td>name</td><td>project</td></tr>
+            <tr><td>EMP ID</td><td>name</td><td>project</td></tr>
+            <tr><td>EMP ID</td><td>name</td><td>project</td></tr>
+           
+
+              
+        </table>
+        <audio controls="contols" loop="loop" count="4">
+            <source src="hugo.mp3" type="audio/mp3"/>
+        </audio>
+        <video contols="controls" width="500" height="500">
+            <source src="teju.mp4" type="video/mp4"/>
+            <source src="teju.ogg" type="video/ogg"/>
+            no video
+        </video>
+        <script>
+            function saveData(){
+                i=document.forms[0].isbn.value;
+                t=document.forms[0].title.value;
+            console.log(i);
+            console.log(t);
+        localStorage.isbn=i;
+        localStorage.title=t;        }
+        function getData(){
+            para=document.getElementsByName("bookdata");
+            para[0].innerHTML=localStorage.isbn;
+        
+            para[1].innerHTML=local.Storage.title;
+        }
+        </script>
+        <form>
+            isbn<input type="text" name="isbn"/><br>
+            title<input type="text" name="title"/><br>
+            
+            <input type="button" value="save" onclick="saveData()"/><br>
+            <input type="button" value="get" onclick="getData()"/><br>
+            <p name="bookdata">bookdata</p><br>
+            <p name="bookdata">data</p><br>
+
+        </form>-->
+    <div>teju</div><br>
+    
+
+
+    </body>
+</html>
